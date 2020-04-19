@@ -6,16 +6,13 @@ package:
   version: {{ version }}
 
 source:
-  folder: src
   url: https://github.com/mvdan/sh/archive/v{{ version }}.tar.gz
   sha256: b05b0c0fdd7dd202c1be75920d501b3735a065322f09c280db0949631e7e0d92
 
 build:
   number: 0
   script:
-    - pushd src
     - go install -a -ldflags '-extldflags "-static"' ./cmd/shfmt
-  skip: true  # [osx or win]
 
 requirements:
   build:
