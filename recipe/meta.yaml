@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   script:
-    - go install -a -ldflags '-extldflags "-static"' ./cmd/shfmt
+    - go install -a -ldflags "-extldflags '-static'" ./cmd/shfmt
 
 requirements:
   build:
