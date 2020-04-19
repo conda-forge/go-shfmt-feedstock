@@ -26,7 +26,7 @@ about:
   home: https://github.com/mvdan/sh
   license: BSD-3-Clause
   license_family: BSD
-  license_file: src/LICENSE
+  license_file: LICENSE
   summary: A shell parser, formatter, and interpreter. Supports POSIX Shell, Bash, and mksh
   description: |
     shfmt is a simple, yet powerful, formatter for shell scripts.
