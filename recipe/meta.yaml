@@ -1,21 +1,18 @@
 {% set name = "shfmt" %}
-{% set version = "3.0.2" %}
+{% set version = "3.1.0" %}
 
 package:
   name: go-{{ name|lower }}
   version: {{ version }}
 
 source:
-  folder: src
   url: https://github.com/mvdan/sh/archive/v{{ version }}.tar.gz
-  sha256: 4ce55f902c6c405f740357a1ccf095b605d14eb5b56d882c74bced4d6410d4ae
+  sha256: b05b0c0fdd7dd202c1be75920d501b3735a065322f09c280db0949631e7e0d92
 
 build:
   number: 0
   script:
-    - pushd src
-    - go install -a -ldflags '-extldflags "-static"' ./cmd/shfmt
-  skip: True  # [osx or win]
+    - go install -a -ldflags "-extldflags '-static'" ./cmd/shfmt
 
 requirements:
   build:
@@ -29,8 +26,8 @@ about:
   home: https://github.com/mvdan/sh
   license: BSD-3-Clause
   license_family: BSD
-  license_file: src/LICENSE
-  summary: "A shell parser, formatter, and interpreter. Supports POSIX Shell, Bash, and mksh"
+  license_file: LICENSE
+  summary: A shell parser, formatter, and interpreter. Supports POSIX Shell, Bash, and mksh
   description: |
     shfmt is a simple, yet powerful, formatter for shell scripts.
     It supports multiple shell dialects such as: POSIX Shell, Bash & mksh.
