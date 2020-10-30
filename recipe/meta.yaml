@@ -1,5 +1,5 @@
 {% set name = "shfmt" %}
-{% set version = "3.1.2" %}
+{% set version = "3.2.0" %}
 
 package:
   name: go-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mvdan/sh/archive/v{{ version }}.tar.gz
-  sha256: 133fcdb4645ee0c2893319b1ce5b83c88b8576c1e3936b1fa14b967df1501ee5
+  sha256: 6755f587fcb6f037f819b96a322b0273d0ab6ecb5911c005b9aae74292c4a819
 
 build:
   number: 0
