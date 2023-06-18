@@ -1,11 +1,11 @@
-About go-shfmt
-==============
+About go-shfmt-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/go-shfmt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mvdan/sh
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/go-shfmt-feedstock/blob/main/LICENSE.txt)
 
 Summary: A shell parser, formatter, and interpreter. Supports POSIX Shell, Bash, and mksh
 
