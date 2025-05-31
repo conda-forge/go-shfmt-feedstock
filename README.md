@@ -17,7 +17,6 @@ shfmt is also highly configurable and can format your code in
 several fashion & conventions, for example take a look at
 Google's bash styling: https://google.github.io/styleguide/shell.xml
 
-
 Current build status
 ====================
 
