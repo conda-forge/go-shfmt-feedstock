@@ -5,7 +5,7 @@
 
 [workspace]
 name = "go-shfmt-feedstock"
-version = "3.53.3"  # conda-smithy version used to generate this file
+version = "3.55.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/go-shfmt-feedstock"
 authors = ["@conda-forge/go-shfmt"]
 channels = ["conda-forge"]
